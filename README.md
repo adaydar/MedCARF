@@ -1,3 +1,3 @@
 # MedCARF
-Radiology Report Generation on Chest Xray and Knee Xray
+MedCARF:Medical Context Aware Radiology Report Generation Framework
 The code and dataset are available and will be made public after acceptance.
