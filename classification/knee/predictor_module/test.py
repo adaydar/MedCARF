@@ -60,7 +60,7 @@ seed_everything(1)
 
 class Test_CONFIG():
 
-  dir_path = "../OAI_dataset_255/"
+  dir_path = "../dataset/OAI_dataset_255/"
   test_dir = dir_path + "test"
   device =  torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
   model_name ="predictor_module" 
