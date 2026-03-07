@@ -1,0 +1,43 @@
+{
+    "KL_1_Mild_Findings" : [
+    "small osteophytes are suspected with no significant joint space narrowing",
+    "very mild tibial spikes are seen without evidence of joint space loss",
+    "doubtful marginal osteophyte formation is noted, but joint spaces remain preserved",
+    "minimal tibial spiking is observed with normal tibiofemoral joint alignment",
+    "possible early osteophyte formation is present, though joint spaces are maintained",
+    "subtle marginal irregularities are present without measurable joint space narrowing"
+  ],
+    "KL_2_Mild_OA": [
+        "osteophyte formation is evident in the tibiofemoral region, joint space narrowing at medial condyle is observed, mild tibial spikes are seen",
+        "slight knee alignment, osteophyte formation is evident in the tibiofemoral region, joint spaces are well-preserved with no signs of narrowing, mild tibial spikes are seen",
+        "slight change in knee alignment, joint space narrowing at medial and lateral condyle is observed, large tibial spikes are seen, osteophyte formation is evident in the tibiofemoral region",
+        "tibial spikes are within normal limits, no osteophyte formation is noted in the tibiofemoral compartment, joint space narrowing at medial and lateral condyle is observed",
+        "mild tibial spikes are seen, joint space narrowing at medial condyle is observed, no osteophyte formation is noted in the tibiofemoral compartment",
+        "large tibial spikes are seen, osteophyte formation is evident in the tibiofemoral region, joint space narrowing at medial and lateral condyle is observed",
+        "joint space narrowing at medial and lateral condyle is observed, large tibial spikes are seen, osteophyte formation is evident in the tibiofemoral region",
+        "large tibial spikes are seen, joint space narrowing at medial condyle is observed, osteophyte formation is evident in the tibiofemoral region",
+        "joint spaces are well-preserved with no signs of narrowing, mild tibial spikes are seen, osteophyte formation is evident in the tibiofemoral region",
+        "joint space narrowing at medial condyle is observed, no osteophyte formation is noted in the tibiofemoral compartment, mild tibial spikes are seen",
+        "no osteophyte formation is noted in the tibiofemoral compartment, mild tibial spikes are seen, joint space narrowing at medial and lateral condyle is observed",
+        "osteophyte formation is evident in the tibiofemoral region, large tibial spikes are seen, joint spaces are well-preserved with no signs of narrowing",
+        "osteophyte formation is evident in the tibiofemoral region, joint space narrowing at medial condyle is observed, tibial spikes are prominant",
+        "no osteophyte formation is noted in the tibiofemoral compartment, large tibial spikes are seen, joint space narrowing at medial and lateral condyle is observed"
+    ],
+    "KL_0_No_OA": [
+        "large tibial spikes are seen, no joint space narrowing  is observed, no osteophyte formation is noted in the tibiofemoral compartment",
+        "tibial spikes are within normal limits, no osteophyte formation is noted in the tibiofemoral compartment, no joint space narrowing  is observed",
+        "tibial spikes are prominent, no osteophyte formation is noted in the tibiofemoral compartment, no joint space narrowing  is observed"
+    ],
+    "KL_3_Moderate_OA": [
+        "joint space narrowing at medial condyle is observed, tibia spikes are prominent, subchondral cysts at medial femoral is noted, mild tibiofemoral osteophytes are seen"
+    ],
+    "KL_4_Severe_OA" : [
+    "complete loss of medial joint space with bone-on-bone contact is observed",
+    "severe osteophyte formation with marked joint space narrowing and tibiofemoral deformity is seen",
+    "advanced osteoarthritis with subchondral sclerosis and large marginal osteophytes is evident",
+    "gross narrowing of the tibiofemoral joint space with bone-on-bone articulation is noted",
+    "severe degenerative changes are present with extensive osteophytes and joint space collapse",
+    "marked tibiofemoral joint deformity with near-complete loss of joint space is evident",
+    "advanced cartilage loss with large osteophytes and pronounced subchondral sclerosis is observed"
+  ]
+}
