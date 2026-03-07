@@ -39,7 +39,7 @@ def seed_everything(seed):
 seed_everything(1)
 
 class CONFIG():
-  dir_path = "../OAI_dataset_255/"
+  dir_path = "../dataset/OAI_dataset_255/"
   save_path = "classification/knee/predictor_module/results/" 
   train_dir=dir_path + 'train' 
   val_dir=dir_path + 'val'
