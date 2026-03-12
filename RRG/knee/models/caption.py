@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from .utils import NestedTensor, nested_tensor_from_tensor_list
 from .backbone import build_backbone
 from .transformer import build_transformer
-from .bridger import Bridger
+from .D_VitAlign import Bridger
 
 class Caption(nn.Module):
     def __init__(self, backbone, transformer, bridger, hidden_dim, vocab_size):
