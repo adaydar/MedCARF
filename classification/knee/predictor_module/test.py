@@ -254,29 +254,7 @@ dt.to_csv(test_cfg.folder_path+ "/" + test_cfg.model_name +".csv")
 save(cfg.embeddings_path,test_features)
 
 file_path = test_cfg.folder_path+ "/" + test_cfg.model_name +".csv"
-data = [] 
-with open(file_path, 'r') as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        data.append(row)       
-
-differing_entries = []
-for i, entry in enumerate(data):
-    if entry['y_true'] != entry['y_predicted']:
-        differing_entries.append(i)
-
-random_entries = random.sample(differing_entries, k=min(30, len(differing_entries)))
-
-# Step 4: Update selected entries with y_actual values
-for entry_index in random_entries:
-    entry = data[entry_index]
-    entry['y_predicted'] = entry['y_true']
-
-with open(file_path, 'w', newline='') as file:
-    writer = csv.DictWriter(file, fieldnames=data[0].keys())
-    writer.writeheader()
-    writer.writerows(data)
-        
+      
 #plotting the confusion metrics and related metrices
 df = pd.read_csv(file_path) 
 confusion_matrix = pd.crosstab(df['y_true'], df['y_predicted'], rownames=['Actual'], colnames=['Predicted'])
